@@ -5,12 +5,128 @@
   --Dark-grayish-blue: hsl(228, 12%, 48%);
   --White: hsl(0, 0%, 100%);
 }
+
+/* General Styles */
 html {
   box-sizing: border-box;
   font-size: 62.5%;
   font-family: 'Montserrat', sans-serif;
 }
+
 body {
+  display: grid;
+  place-items: center;
   margin: 0;
+  width: 100%;
   min-height: 100vh;
+  background-color: var(--Cream);
+}
+
+p {
+  margin: 20px;
+  font-size: 1.4rem;
+}
+
+footer {
+  margin: 0 auto;
+  align-self: end;
+}
+
+/* Card */
+.card-container {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 90%;
+  max-width: 591px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.card-container img {
+  width: 100%;
+  height: 100%;
+}
+
+.card-container h1 {
+  margin: 20px;
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: var(--Dark-grayish-blue);
+  letter-spacing: 0.5rem;
+}
+
+.card-title {
+  margin: 0 20px;
+  font-size: 3.4rem;
+  font-family: 'Fraunces';
+  font-weight: 700;
+  color: var(--Very-dark-blue);
+  line-height: 3.5rem;
+}
+
+.card-description {
+  width: 292px;
+  color: var(--Dark-grayish-blue);
+  line-height: 2.2rem;
+}
+
+.card-price {
+  display: flex;
+  align-items: center;
+}
+
+.card-price span:first-child {
+  font-family: 'Fraunces';
+  font-size: 3.7rem;
+  font-weight: 700;
+  color: var(--Dark-cyan);
+}
+
+.card-price span:nth-child(2) {
+  line-height: 2rem;
+  margin-left: 20px;
+  text-decoration: line-through;
+  color: var(--Dark-grayish-blue);
+}
+
+.primary-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  padding: 1.5rem;
+  font-weight: 700;
+  color: var(--White);
+  background-color: var(--Dark-cyan);
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.primary-button:hover {
+  background-color: var(--Very-dark-blue);
+}
+
+.primary-button img {
+  /* margin-right: 20px; */
+  width: 1.5rem;
+  height: 1.5rem;
+  background-image: url('./images/icon-cart.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.primary-button p {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 1rem;
+}
+
+@media (min-width:481px) {
+  .card-container {
+    display: flex;
+  }
+  .card-description {
+    width: 224px;
+  }
 }
