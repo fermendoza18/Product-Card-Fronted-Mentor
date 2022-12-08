@@ -23,8 +23,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/wh1tekn1ght/Product-Card-Fronted-Mentor)
-- Live Site URL: [Add live site URL here](https://wh1tekn1ght.github.io/Product-Card-Fronted-Mentor/)
+- Solution URL: [Add solution URL here](https://github.com/nimrodcode/Product-Card-Fronted-Mentor)
+- Live Site URL: [Add live site URL here](https://nimrodcode.github.io/Product-Card-Fronted-Mentor/)
 
 ## My process
 
