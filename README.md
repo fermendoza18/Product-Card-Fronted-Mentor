@@ -23,8 +23,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/nimrodcode/Product-Card-Fronted-Mentor)
-- Live Site URL: [Add live site URL here](https://nimrodcode.github.io/Product-Card-Fronted-Mentor/)
+- Solution URL: [Add solution URL here](https://github.com/whiteknight-dev/Product-Card-Fronted-Mentor)
+- Live Site URL: [Add live site URL here](https://whiteknight-dev.github.io/Product-Card-Fronted-Mentor/)
 
 ## My process
 
@@ -46,5 +46,5 @@ I want to improve these:
 
 ## Author
 
-- Frontend Mentor - [@fermendoza18](https://www.frontendmentor.io/profile/fermendoza18)
-- Github - [@wh1tekn1ght](https://github.com/wh1tekn1ght)
+- Frontend Mentor - [@whiteknight-dev](https://www.frontendmentor.io/profile/whiteknight-dev)
+- Github - [@whiteknight-dev](https://github.com/whiteknight-dev)
